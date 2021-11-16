@@ -1,0 +1,152 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    text-align:center;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family:"Montserrat";   
+    font-weight: Bold;
+}
+
+p{
+    color:#8f8f8f;
+}
+
+/*Heading*/
+.big-heading{
+    font-family: 'Montserrat', sans-serif;
+    font-weight:Bold;
+    font-size:3.5rem;
+    line-height: 1.5;
+}
+
+.section-heading{
+    font-size:3rem;
+    line-height:1.5;
+}
+
+.container-fluid{
+    padding: 7% 15%;
+}
+/**Sections*/
+
+.coloured-section{
+background-color:#ff4c68;
+color:#fff;
+}
+
+.white-section{
+background-color:#fff;
+}
+
+/*Navigation bar*/
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight:Bold;
+    font-size:2rem;
+}
+
+.navbar{               
+    padding: 0 0 4.5rem;
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.nav-link{
+    font-size:1.1rem;
+    font-family:"Montserrat";
+}
+
+.download-button{
+    margin:5% 3% 5% 0%;
+}
+
+.title-image{
+    width:60%;
+    transform:rotate(25deg);
+    position:absolute;
+    right:30%;
+}
+
+.feature-title{
+    font-size: 1.5rem;
+}
+
+.feature-box{
+    padding-right:4.5%;
+}
+
+.icon{
+    color:#ef8172;
+    margin-bottom:1rem;
+}
+.icon:hover{
+    color:#ff4c68;
+}
+
+.testimonial-text{
+    font-size:3rem;
+    line-height:1.5;
+}
+
+.testimonials-image{
+    width:10%;
+    border-radius:100%;
+    margin:20px;
+
+}
+
+.press-bottom{
+    width:15%;
+    margin:20px 20px 15px
+}
+
+.pricing-column{
+    padding:3% 2%;
+    }
+
+.cta-heading{
+    font-family:"Montserrat";
+    font-weight:bold;
+    font-size: 4.0rem;
+    line-height: 1.5;
+    }
+        
+.icon_pad{
+    margin:20px 10px;
+    }
+
+#testimonials{
+    background-color:#ef8172;
+}
+#features{
+        position:relative;
+    }
+#press{
+    background-color:#ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+#title .container-fluid{
+    padding:3% 15% 7%;
+    text-align: left;
+}
+
+#pricing{
+    padding:100px;
+}
+
+
+@media (max-width: 1028px){
+    #title{
+        text-align:center;
+    }
+
+    .title-image{
+        position:static;
+        transform:rotate(0);
+    }
+}
